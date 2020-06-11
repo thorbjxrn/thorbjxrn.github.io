@@ -1,4 +1,4 @@
-# Hi. I'm Thorbjørn. If you read this, I likely want to connect with you.
+# Hi. I'm Thorbjørn. If you read this, I probably want to connect with you.
 
 I am a computer engineer. I love to build robots and program in machine near languages.
 I am a software developer. I create apps and software in any framework and strive to make them beautiful and unique.
