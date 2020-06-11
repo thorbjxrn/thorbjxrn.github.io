@@ -17,7 +17,7 @@ Oh and I have a music project going on at
 
 email: tbonvik@gmail.com
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vQpLmaa3dF7LneFTAU5NSzDd-Yqh02wjeaLWvS-V3Rqu86pxLaH_vgp3SQjDMT0CoPgrAn6yBihPULN/pub?embedded=true"></iframe>
+
 
 
 *He who does not believe in himself always lies.* - Friedrich Nietzsche, Thus Spoke Zarathustra
