@@ -4,5 +4,4 @@ I am a software developer, computer engineer and musician. I like to read, creat
 
 
 
-*He who does not believe in himself always lies.*
-- Friedrich Nietzsche, Thus Spoke Zarathustra*
+*He who does not believe in himself always lies.* - Friedrich Nietzsche, Thus Spoke Zarathustra*
