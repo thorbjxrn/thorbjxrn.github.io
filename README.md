@@ -9,7 +9,12 @@ LinkedIn: <a href="https://www.linkedin.com/in/thorbj%C3%B8rn-bonvik-39a38313a/"
 Check out my mobile application portfolio here:
 <a href="thorbjxrn.github.io/portfolio_bonvik.pdf" target="_blank">Portfolio.pdf</a>
 
-Or you can check out my music project going on at
+
+My highly rated Firefox Addon "Japanesify":
+<a href="https://addons.mozilla.org/en-US/firefox/addon/japanesify/#&gid=1&pid=2" target="_blank">Addons.Mozilla.com/japanesify</a>
+
+
+And please, check out my music project going on at
 
 <a href="https://open.spotify.com/artist/0tDiZvHjg67cy7q8bnT76Y?si=Yf_23S7_TGiYW1YIJphHqA">Spotify</a>
 <a href="https://www.youtube.com/channel/UCPbGLOYUI6rcG08tJ1iysKA/">Youtube</a>
