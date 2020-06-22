@@ -9,7 +9,7 @@ Contact:
 My highly rated Firefox Addon "Japanesify":
 <a href="https://addons.mozilla.org/en-US/firefox/addon/japanesify/#&gid=1&pid=2" target="_blank"><br>Addons.Mozilla/Japanesify</a>
 
-Check out my mobile application portfolio here:<br><a href="thorbjxrn.github.io/portfolio_bonvik.pdf" target="_blank">Portfolio.pdf</a>
+Check out my mobile application portfolio here:<br><a href="/portfolio_bonvik.pdf" target="_blank">Portfolio.pdf</a>
 
 And please, check out my music project going on at
 
