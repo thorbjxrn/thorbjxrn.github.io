@@ -3,16 +3,12 @@
 I am a computer engineer and software developer.
 
 email: tbonvik@gmail.com
-
-LinkedIn: <a href="https://www.linkedin.com/in/thorbj%C3%B8rn-bonvik-39a38313a/">Thorbjørn Bonvik</a>
-
-Check out my mobile application portfolio here:
-<a href="thorbjxrn.github.io/portfolio_bonvik.pdf" target="_blank">Portfolio.pdf</a>
-
+<br><a href="https://www.linkedin.com/in/thorbj%C3%B8rn-bonvik-39a38313a/">LinkedIn</a>
 
 My highly rated Firefox Addon "Japanesify":
-<a href="https://addons.mozilla.org/en-US/firefox/addon/japanesify/#&gid=1&pid=2" target="_blank">Addons.Mozilla.com/japanesify</a>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/japanesify/#&gid=1&pid=2" target="_blank"><br>Addons.Mozilla/Japanesify</a>
 
+Check out my mobile application portfolio here:<br><a href="thorbjxrn.github.io/portfolio_bonvik.pdf" target="_blank">Portfolio.pdf</a>
 
 And please, check out my music project going on at
 
