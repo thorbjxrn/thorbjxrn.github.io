@@ -2,7 +2,8 @@
 
 I am a computer engineer and software developer.
 
-email: tbonvik@gmail.com
+Contact:
+<br><a href="mailto:tbonvik@gmail.com">tbonvik@gmail.com</a>
 <br><a href="https://www.linkedin.com/in/thorbj%C3%B8rn-bonvik-39a38313a/">LinkedIn</a>
 
 My highly rated Firefox Addon "Japanesify":
