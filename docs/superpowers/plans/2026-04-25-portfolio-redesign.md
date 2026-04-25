@@ -263,26 +263,26 @@ Write the full single-page site to `index.html`. The page has four sections: hea
         <div class="section-label">Apps</div>
         <div class="app-grid">
 
-            <a class="app-card" href="https://apps.apple.com/app/overdubber/id6744268365" target="_blank" rel="noopener">
+            <a class="app-card" href="https://apps.apple.com/no/app/overdubber/id6762368689" target="_blank" rel="noopener">
                 <img src="icons/overdubber.png" alt="Overdubber icon">
                 <div class="app-name">Overdubber</div>
                 <div class="app-tagline">Layer audio. Mix. Export.</div>
                 <div class="app-link" style="color: #d92e26;">App Store ↗</div>
             </a>
 
-            <a class="app-card" href="https://apps.apple.com/app/prana-breathwork/id6745206175" target="_blank" rel="noopener">
+            <div class="app-card">
                 <img src="icons/prana.png" alt="Prāṇa icon">
                 <div class="app-name">Prāṇa</div>
                 <div class="app-tagline">Guided breathwork.</div>
-                <div class="app-link" style="color: #8ca6cc;">App Store ↗</div>
-            </a>
+                <div class="app-link" style="color: #8ca6cc;">Coming Soon</div>
+            </div>
 
-            <a class="app-card" href="https://apps.apple.com/app/stronq/id6746505498" target="_blank" rel="noopener">
+            <div class="app-card">
                 <img src="icons/stronq.png" alt="Stronq icon">
                 <div class="app-name">Stronq</div>
                 <div class="app-tagline">Hypertrophy training.</div>
-                <div class="app-link" style="color: #d9c08c;">App Store ↗</div>
-            </a>
+                <div class="app-link" style="color: #d9c08c;">Coming Soon</div>
+            </div>
 
             <a class="app-card" href="https://apps.apple.com/us/app/simple-habits-weekly-tracker/id6762311878" target="_blank" rel="noopener">
                 <img src="icons/habits.png" alt="Simple Habit Tracker icon">
@@ -327,7 +327,7 @@ Write the full single-page site to `index.html`. The page has four sections: hea
 </html>
 ```
 
-**Notes on App Store URLs:** Only Simple Habit Tracker has a confirmed App Store URL (`https://apps.apple.com/us/app/simple-habits-weekly-tracker/id6762311878`). The URLs for Overdubber, Prāṇa, and Stronq are placeholders — update them with real URLs once the apps are live, or remove the `href` and link text for apps not yet published.
+**Notes on App Store URLs:** Overdubber and Simple Habit Tracker have live App Store links. Prāṇa and Stronq are not yet published — they use `<div>` instead of `<a>` and show "Coming Soon" instead of "App Store ↗". When they go live, swap the `<div class="app-card">` to `<a class="app-card" href="...">` and update the link text.
 
 - [ ] **Step 2: Preview locally**
 
