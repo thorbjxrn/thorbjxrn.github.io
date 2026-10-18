@@ -122,6 +122,23 @@
             text-decoration: none;
         }
 
+        /* Writing */
+        .writing-section { margin-bottom: 48px; }
+        .writing-section .section-label { color: #a1a1a6; }
+        .post-card {
+            display: block;
+            padding: 24px;
+            border-radius: 16px;
+            background: #1c1c1e;
+            color: #f5f5f7;
+            text-decoration: none;
+        }
+        .post-card:hover { background: #2c2c2e; }
+        .post-card:focus-visible { outline: 2px solid #f5f5f7; outline-offset: 6px; }
+        .post-card h2 { font-size: 20px; line-height: 1.35; margin-bottom: 12px; }
+        .post-card p { color: #a1a1a6; font-size: 14px; line-height: 1.6; }
+        .post-card span { display: block; margin-top: 16px; color: #d2d2d7; font-size: 13px; }
+
         /* Footer */
         .footer {
             text-align: center;
@@ -216,6 +233,15 @@
             </div>
         </div>
 
+        <section class="writing-section" aria-label="Writing">
+            <div class="section-label">Writing</div>
+            <a class="post-card" href="/blog/overdubber/">
+                <h2>From tape machines to Overdubber</h2>
+                <p>A university prototype, two tape machines, and building the recorder I wanted.</p>
+                <span>Read the story →</span>
+            </a>
+        </section>
+
         <div class="footer">
             <div class="socials">
                 <a href="https://instagram.com/thorbjxrn" target="_blank" rel="noopener">Instagram</a>
@@ -223,6 +249,7 @@
                 <a href="https://www.linkedin.com/in/thorbj%C3%B8rn-bonvik-39a38313a/" target="_blank" rel="noopener">LinkedIn</a>
             </div>
             <div class="footer-links">
+                <a href="/blog/" style="color: #a1a1a6;">Blog</a>
                 <a href="mailto:apps.grew654@passmail.net">Contact</a>
                 <a href="/stronq/privacy.html">Privacy</a>
             </div>
