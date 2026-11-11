@@ -1,0 +1,26 @@
+# Thorbjørn Bonvik
+
+> Personal site of Thorbjørn Bonvik, an independent iOS developer and musician in Oslo. It describes the apps, most fully Overdubber, a looper and multitrack recorder for iPhone, iPad and Mac.
+
+Overdubber in brief:
+
+- Records vocals and instruments in layers: record a part, listen back while adding the next.
+- Free: up to eight layers per project, metronome and count-in, looping, non-destructive trim, timing and fades, volume, pan and mute per layer, optional tape warmth recorded into the take, reverb and Glue compression on the mix, WAV or M4A mix export, and Session video recording on iPhone and iPad.
+- One-time purchase: unlimited layers, audio import, individual-track export (WAV files in a ZIP), more themes, and no ads on iPhone and iPad (the Mac version has no ads). No subscription and no account.
+- Requires iOS or iPadOS 17 or later, or macOS 14 or later.
+- On iPhone and iPad, supports VoiceOver (Magic Tap starts and stops a take) and larger text. Reduce Motion is respected on every platform.
+- An audio recorder, not a full digital audio workstation: no MIDI, virtual instruments or plug-in hosting.
+- Not connected to OverDubber, the delay effect plug-in for desktop music software.
+
+## Overdubber
+
+- [Overdubber](https://thorbjxrn.github.io/overdubber/): What the app does, free and paid features, requirements, and common questions.
+- [From tape machines to Overdubber](https://thorbjxrn.github.io/blog/overdubber/): Why and how the app was made.
+- [Overdubber on the App Store](https://apps.apple.com/app/overdubber/id6762368689): Download, ratings and release notes.
+
+## Site
+
+- [Apps and music](https://thorbjxrn.github.io/): All apps and music by Thorbjørn Bonvik.
+- [Blog](https://thorbjxrn.github.io/blog/): Articles.
+- [Support](https://thorbjxrn.github.io/support.html): Contact for all apps.
+- [Privacy policy](https://thorbjxrn.github.io/privacy.html): Covers all apps.
