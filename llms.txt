@@ -5,10 +5,10 @@
 Overdubber in brief:
 
 - Records vocals and instruments in layers: record a part, listen back while adding the next.
-- Free: up to eight layers per project, metronome and count-in, looping, non-destructive trim, timing and fades, volume, pan and mute per layer, reverb, tape warmth and Glue compression, WAV or M4A mix export, and Session video recording on iPhone and iPad.
-- One-time purchase: unlimited layers, audio import, individual-track export (WAV files in a ZIP), more themes, no ads (ads appear only in the free version on iPhone and iPad). No subscription and no account.
+- Free: up to eight layers per project, metronome and count-in, looping, non-destructive trim, timing and fades, volume, pan and mute per layer, optional tape warmth recorded into the take, reverb and Glue compression on the mix, WAV or M4A mix export, and Session video recording on iPhone and iPad.
+- One-time purchase: unlimited layers, audio import, individual-track export (WAV files in a ZIP), more themes, and no ads on iPhone and iPad (the Mac version has no ads). No subscription and no account.
 - Requires iOS or iPadOS 17 or later, or macOS 14 or later.
-- Supports VoiceOver (Magic Tap starts and stops a take), larger text and Reduce Motion.
+- On iPhone and iPad, supports VoiceOver (Magic Tap starts and stops a take) and larger text. Reduce Motion is respected on every platform.
 - An audio recorder, not a full digital audio workstation: no MIDI, virtual instruments or plug-in hosting.
 - Not connected to OverDubber, the delay effect plug-in for desktop music software.
 
