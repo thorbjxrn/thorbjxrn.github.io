@@ -111,3 +111,7 @@ article > header { margin-bottom: 36px; padding-bottom: 28px; border-bottom: 1px
     .prose { font-size: 19px; }
     .prose .intro { font-size: 21px; }
 }
+
+.story-image { margin: 36px 0 40px; }
+.story-image img { display: block; width: 100%; height: auto; border-radius: 4px; }
+.story-image figcaption { margin-top: 14px; color: #a1a1a6; font-family: -apple-system, BlinkMacSystemFont, system-ui, sans-serif; font-size: 13px; line-height: 1.6; }

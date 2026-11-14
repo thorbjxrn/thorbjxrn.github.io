@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bringing Overdubber to Mac: Catalyst, a faulty cable, and rethinking iPad — Thorbjørn Bonvik</title>
+<meta name="description" content="How Overdubber became a Mac multitrack recorder: shared iOS code, real audio tests with a Zoom U-44, a faulty USB cable, and the limits of the first Mac release."><meta name="author" content="Thorbjørn Bonvik">
+<link rel="canonical" href="https://thorbjxrn.github.io/blog/overdubber-mac/">
+<meta property="og:type" content="article"><meta property="og:title" content="Bringing Overdubber to Mac: Catalyst, a faulty cable, and rethinking iPad">
+<meta property="og:description" content="How Overdubber became a Mac multitrack recorder: shared iOS code, real audio tests with a Zoom U-44, a faulty USB cable, and the limits of the first Mac release."><meta property="og:url" content="https://thorbjxrn.github.io/blog/overdubber-mac/">
+<meta property="og:site_name" content="Thorbjørn Bonvik"><meta property="article:published_time" content="2026-11-14">
+<meta property="og:image" content="https://thorbjxrn.github.io/blog/overdubber-mac/media/mac-recorder.jpg"><meta property="og:image:alt" content="Overdubber multitrack recorder on Mac">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Bringing Overdubber to Mac: Catalyst, a faulty cable, and rethinking iPad">
+<meta name="twitter:description" content="How Overdubber became a Mac multitrack recorder: shared iOS code, real audio tests with a Zoom U-44, a faulty USB cable, and the limits of the first Mac release."><meta name="twitter:image" content="https://thorbjxrn.github.io/blog/overdubber-mac/media/mac-recorder.jpg">
+<link rel="stylesheet" href="/blog/blog.css?v=20261114-images">
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Bringing Overdubber to Mac: Catalyst, a faulty cable, and rethinking iPad",
+  "description": "How Overdubber became a Mac multitrack recorder: shared iOS code, real audio tests with a Zoom U-44, a faulty USB cable, and the limits of the first Mac release.",
+  "datePublished": "2026-11-14",
+  "dateModified": "2026-11-14",
+  "inLanguage": "en",
+  "author": {
+    "@type": "Person",
+    "name": "Thorbjørn Bonvik",
+    "url": "https://thorbjxrn.github.io/"
+  },
+  "mainEntityOfPage": "https://thorbjxrn.github.io/blog/overdubber-mac/",
+  "image": [
+    "https://thorbjxrn.github.io/blog/overdubber-mac/media/mac-recorder.jpg",
+    "https://thorbjxrn.github.io/blog/overdubber-mac/media/zoom-loopback.jpg"
+  ],
+  "about": {
+    "@type": "SoftwareApplication",
+    "@id": "https://apps.apple.com/app/overdubber/id6762368689",
+    "name": "Overdubber",
+    "url": "https://thorbjxrn.github.io/overdubber/",
+    "operatingSystem": [
+      "macOS 14 or later",
+      "iOS 17 or later",
+      "iPadOS 17 or later"
+    ],
+    "applicationCategory": "MultimediaApplication"
+  }
+}</script>
+</head><body><div class="container">
+<nav class="site-nav" aria-label="Main navigation"><a href="/">Thorbjørn Bonvik</a><a href="/blog/">← Blog</a></nav>
+<main><article><header><p class="eyebrow">Music &amp; making apps</p><h1>Bringing Overdubber to Mac: Catalyst, a faulty cable, and rethinking iPad</h1>
+<p class="byline">By <a href="/" rel="author">Thorbjørn Bonvik</a> · <time datetime="2026-11-14">14 November 2026</time></p></header>
+<div class="prose"><p class="intro">Overdubber is now on Mac. It is a looper and multitrack audio recorder for building up vocals, guitar, beatboxing or other recorded parts, one layer at a time. The same idea started on iPhone and iPad: record something, listen back while adding the next part, then mix and export.</p>
+<p>Bringing it to the desktop meant working with Mac Catalyst, revisiting the layout, and spending quite a bit of time with a Zoom U-44 audio interface. One of the most useful fixes turned out to be a USB cable.</p>
+<figure class="story-image"><a href="media/mac-recorder.jpg"><img src="media/mac-recorder.jpg" width="1600" height="1000" alt="Overdubber on Mac with three audio layers, per-layer volume, pan and reverb controls, and recording and playback controls below."></a><figcaption>The Mac recorder, with three layers in a demonstration project. The waveforms and mix controls share one window.</figcaption></figure>
+<h2>Why bring an iPhone recorder to Mac?</h2>
+<p>I wrote about the app’s beginnings in <a href="/blog/overdubber/">From tape machines to Overdubber</a>: a university prototype, time spent making music, and two reel-to-reel machines. The Mac version follows the same idea. Sometimes the phone is the recorder you have with you. Sometimes you are already sitting at a computer with headphones and an audio interface connected.</p>
+<p>For a singer, that might mean recording a melody and stacking harmonies. For a guitarist, it might mean laying down a rhythm part, looping it, and trying another part over it. Overdubber keeps that recording workflow small. It does not have MIDI sequencing, virtual instruments or plug-in hosting. If those are what you need, a full digital audio workstation is a better fit.</p>
+<h2>What Catalyst gave me</h2>
+<p>Mac Catalyst let me bring the existing app to macOS while keeping the shared recording, project, mixing and editing code. That matters for a small app: a correction to the underlying workflow can benefit more than one platform, instead of becoming a second implementation to maintain.</p>
+<p>Getting a window to compile was only the beginning. Saving a file should feel at home on a Mac. Sharing needs to hand another application a usable audio file. A sheet needs to close when you press Done. Those sound like small details until one of them gets between you and the recording you just made.</p>
+<p>The Mac work included native Save As, keyboard commands, and fixes around export sharing and presentation. One sharing issue needed more than a filename or a nicer preview: the receiving app needed its own stable copy of the exported file. Testing the handoff meant checking the file the other app actually received.</p>
+<figure class="story-image"><a href="media/mac-editor.jpg"><img src="media/mac-editor.jpg" width="1600" height="1000" loading="lazy" alt="Overdubber’s Mac clip editor showing a waveform, trim boundaries, a fade-in curve, and playback and mixing controls."></a><figcaption>The clip editor on Mac. Trim, timing and fades belong to the same recording workflow as on iPhone and iPad; desktop presentation still needed its own testing.</figcaption></figure>
+<h2>The faulty cable</h2>
+<p>Audio problems are particularly good at looking like software problems when you are in the middle of porting an audio app.</p>
+<p>During the Mac work, I heard distortion through the Zoom U-44. It also happened in YouTube and QuickTime, on two Macs, including after a restart. Playback on the iPhone was clean. Replacing the USB cable restored clean listening on the Mac.</p>
+<p>That changed how we interpreted the earlier results. A suspicious recording is not enough evidence to rewrite an audio engine when the connection itself is unreliable.</p>
+<figure class="story-image"><a href="media/zoom-loopback.jpg"><img src="media/zoom-loopback.jpg" width="1600" height="900" loading="lazy" alt="Zoom U-44 audio interface beside a Mac running Overdubber, with a red patch cable looping an output back into an input and USB cabling beside the laptop."></a><figcaption>The Zoom U-44 loopback setup used while testing Overdubber for Mac, pictured with the long, unreliable USB cable. Replacing that USB cable restored clean playback after distortion also appeared in YouTube and QuickTime. The red cable is the audio loopback connection.</figcaption></figure>
+<p>The patch cable lets the interface record its own output. Play a known sequence of pulses, record it back, and compare where the pulses land. That gives you something more specific than “this take feels late”: an offset at the start, spacing between pulses, and whether the recording drifts.</p>
+<p>After restoring a working connection, one short repeat produced three 16-second takes with all 48 expected pulses present and exact one-second spacing. That was useful evidence, not a promise about every interface or every recording length. The follow-up setup also changed power and patch cabling, so those measurements do not isolate USB cable length as the cause.</p>
+<p>There were real software timing problems to solve as well. Later work aligned the recorded take with the playback timeline using capture timestamps. Physical tests covered ordinary overdubs, count-in, and monitoring at both 44.1 and 48 kHz on the U-44. The lesson was to separate a bad connection from a reproducible engine problem, and keep checking the actual recorded audio.</p>
+<h2>The Mac work made me rethink iPad</h2>
+<p>A larger screen changes the layout question. Simply spreading phone controls across a wide window does not necessarily make recording easier.</p>
+<p>We developed two arrangements: tracks above a bottom transport, and tracks alongside a compact column of controls. The second arrangement can work on Mac and landscape iPad, while portrait iPad keeps the controls below the tracks to preserve waveform width. Both use a shared seek bar and aligned playheads.</p>
+<p>This is still a distinction between design work and public rollout. Mac uses the bottom-control layout by default. The alternative layouts are available for development preview, and the public iPad layout experiment is not enabled as I write this. I want to evaluate Mac and iPad separately; a layout that works with a pointer on a desk may not be the one you want while holding a tablet.</p>
+<h2>What the first Mac version does—and where it stops</h2>
+<p>Overdubber for Mac requires macOS 14 or later. It records from the input selected in macOS System Settings, whether that is the built-in microphone or a compatible audio interface. Explicit device selection inside the app is deferred. The U-44 tests describe one tested setup, not universal audio-interface certification.</p>
+<p>The free app records up to eight layers per project and exports a finished WAV or M4A mix. The one-time Full Unlock adds unlimited layers, audio import, individual-track export as WAV files in a ZIP, and more themes. Full Unlock is shared across iPhone, iPad and Mac with the same Apple Account; use Restore Purchases if you have already bought it. There is no subscription or account requirement, and the Mac version has no ads.</p>
+<p>New Session video capture remains an iPhone and iPad feature. Mac can review and export existing saved Sessions, but it does not make new Session captures in this first release. ZIP stems import is also deferred on Mac; exporting stems and importing a stems ZIP are different features.</p>
+<p>The iOS app remains part of the same project, especially for recording away from a desk and making Session videos of the layers coming together. An Android version is in closed testing; it is not publicly released yet.</p>
+<h2>Try recording a few layers</h2>
+<p>If you want to sketch a song or stack vocal harmonies on Mac without opening a full production session, start with headphones and one short part. Record another while listening back, balance the layers, and export the mix. That is the workflow Overdubber is built around.</p>
+<p>You can <a href="https://apps.apple.com/app/overdubber/id6762368689?platform=mac">get Overdubber on the Mac App Store</a>, or read the <a href="/overdubber/">feature overview for iPhone, iPad and Mac</a>. And if the audio suddenly sounds wrong in every app, check the cable too.</p>
+</div></article></main><footer class="site-footer"><a href="/blog/">All posts</a><a href="/">Apps &amp; music</a><a href="/support.html">Support</a></footer></div></body></html>
