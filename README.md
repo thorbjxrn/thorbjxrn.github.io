@@ -11,3 +11,5 @@ To preview locally, run `python3 -m http.server 8000 --bind 127.0.0.1` from the 
 When adding a post, update `blog/index.html` and `sitemap.xml`, and give the post an absolute canonical URL, a description, and social sharing metadata. `robots.txt` allows crawling and links to the sitemap; this makes the pages accessible to search crawlers but does not guarantee indexing or recommendations.
 
 The Overdubber article includes a web copy of the existing App Store Session preview, with the original AAC audio preserved. The MP4 uses H.264 and fast-start metadata; the native player loads it on demand and does not autoplay. Its poster is a frame from the same video. Future article additions are tracked in [BACKLOG.md](BACKLOG.md).
+
+Overdubber download links share one App Store campaign (`pt=128788989`, `ct=thorbjxrn.github.io`, `mt=8`) so low-volume website traffic is reported together. Use the same campaign on new articles; retain `platform=mac` for Mac-specific calls to action. Keep structured-data identity URLs (`@id`, `url`, `sameAs`) stable and untagged; the `downloadUrl` uses the campaign. Campaign link supplied by the owner on 2026-11-14.

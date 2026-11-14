@@ -16,7 +16,7 @@ Overdubber in brief:
 
 - [Overdubber](https://thorbjxrn.github.io/overdubber/): What the app does, free and paid features, requirements, and common questions.
 - [From tape machines to Overdubber](https://thorbjxrn.github.io/blog/overdubber/): Why and how the app was made.
-- [Overdubber on the App Store](https://apps.apple.com/app/overdubber/id6762368689): Download, ratings and release notes.
+- [Overdubber on the App Store](https://apps.apple.com/app/apple-store/id6762368689?pt=128788989&ct=thorbjxrn.github.io&mt=8): Download, ratings and release notes.
 
 - [Bringing Overdubber to Mac](https://thorbjxrn.github.io/blog/overdubber-mac/): Firsthand Catalyst development story, audio-interface testing, Mac capabilities and limitations, and iPad layout exploration. Android is in closed testing, not publicly released.
 
