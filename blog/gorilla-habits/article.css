@@ -1,0 +1,8 @@
+.concept-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin: 32px 0; }
+.concept-gallery .story-image { margin: 0; }
+.gallery-note { font-size: 16px; }
+table { width: 100%; border-collapse: collapse; margin: 32px 0; font-size: 17px; }
+caption { text-align: left; font-size: 15px; margin-bottom: 12px; }
+th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid #38383a; }
+tbody th { font-weight: normal; }
+@media (max-width: 480px) { .concept-gallery { grid-template-columns: 1fr; } }

@@ -13,3 +13,5 @@ When adding a post, update `blog/index.html` and `sitemap.xml`, and give the pos
 The Overdubber article includes a web copy of the existing App Store Session preview, with the original AAC audio preserved. The MP4 uses H.264 and fast-start metadata; the native player loads it on demand and does not autoplay. Its poster is a frame from the same video. Future article additions are tracked in [BACKLOG.md](BACKLOG.md).
 
 Overdubber download links share one App Store campaign (`pt=128788989`, `ct=thorbjxrn.github.io`, `mt=8`) so low-volume website traffic is reported together. Use the same campaign on new articles; retain `platform=mac` for Mac-specific calls to action. Keep structured-data identity URLs (`@id`, `url`, `sameAs`) stable and untagged; the `downloadUrl` uses the campaign. Campaign link supplied by the owner on 2026-11-14.
+
+The Gorilla Habits article uses the owner-supplied campaign URL for app 6762311878, with the same site campaign parameters. Its six JPEG concept images are web copies of the original Meta creative exports retained in the Simple Habit Tracker brand-research evidence. The gallery depicts concepts, not released app screenshots.
