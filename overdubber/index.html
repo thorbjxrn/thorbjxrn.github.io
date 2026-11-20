@@ -7,6 +7,10 @@
     <meta name="description" content="Overdubber records vocals and instruments in layers on iPhone, iPad and Mac. Eight layers and WAV or M4A export are free. One-time purchase for more, no subscription.">
     <meta name="author" content="Thorbjørn Bonvik">
     <link rel="canonical" href="https://thorbjxrn.github.io/overdubber/">
+    <link rel="alternate" hreflang="en" href="https://thorbjxrn.github.io/overdubber/">
+    <link rel="alternate" hreflang="de" href="https://thorbjxrn.github.io/overdubber/de/">
+    <link rel="alternate" hreflang="ja" href="https://thorbjxrn.github.io/overdubber/ja/">
+    <link rel="alternate" hreflang="x-default" href="https://thorbjxrn.github.io/overdubber/">
     <link rel="icon" href="/icons/overdubber.png">
     <link rel="apple-touch-icon" href="/icons/overdubber.png">
     <meta name="apple-itunes-app" content="app-id=6762368689">
@@ -23,6 +27,7 @@
     <meta name="twitter:image" content="https://thorbjxrn.github.io/icons/overdubber.png">
     <meta name="twitter:image:alt" content="Overdubber app icon">
     <link rel="stylesheet" href="/blog/blog.css?v=20261018-accessibility">
+    <link rel="stylesheet" href="/overdubber/languages.css">
     <style>
         .lede { display: flex; align-items: center; gap: 20px; }
         .lede img { border-radius: 16px; flex-shrink: 0; }
@@ -49,7 +54,7 @@
                 "operatingSystem": "iOS 17.0 or later, iPadOS 17.0 or later, macOS 14.0 or later",
                 "applicationCategory": "MultimediaApplication",
                 "applicationSubCategory": "Music recording",
-                "inLanguage": "en",
+                "inLanguage": ["en", "ar", "da", "fr", "de", "he", "hi", "id", "it", "ja", "ko", "nb", "pl", "pt", "zh-Hans", "es", "sv", "th", "zh-Hant", "tr", "uk", "ur", "vi"],
                 "offers": {
                     "@type": "Offer",
                     "price": 0,
@@ -68,7 +73,9 @@
             },
             {
                 "@type": "FAQPage",
+                "inLanguage": "en",
                 "mainEntity": [
+                    {"@type": "Question", "name": "Which languages does Overdubber support?", "acceptedAnswer": {"@type": "Answer", "text": "Overdubber supports 23 interface languages: English, Arabic, Danish, French, German, Hebrew, Hindi, Indonesian, Italian, Japanese, Korean, Norwegian Bokmål, Polish, Portuguese, Simplified Chinese, Spanish, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Urdu and Vietnamese."}},
                     {
                         "@type": "Question",
                         "name": "Is Overdubber free?",
@@ -116,6 +123,7 @@
             <a href="/">← Thorbjørn Bonvik</a>
             <a href="/blog/">Blog</a>
         </nav>
+        <nav class="language-nav" aria-label="Page language"><a href="/overdubber/" lang="en" hreflang="en" aria-current="page">English</a><a href="/overdubber/de/" lang="de" hreflang="de">Deutsch</a><a href="/overdubber/ja/" lang="ja" hreflang="ja">日本語</a></nav>
         <main>
             <article>
                 <header>
@@ -187,6 +195,9 @@
 
                 <section class="faq prose" aria-labelledby="overdubber-faq">
                     <h2 id="overdubber-faq">Questions and answers</h2>
+
+                    <h3 id="languages">Which languages does Overdubber support?</h3>
+                    <p>Overdubber supports 23 interface languages: English, Arabic, Danish, French, German, Hebrew, Hindi, Indonesian, Italian, Japanese, Korean, Norwegian Bokmål, Polish, Portuguese, Simplified Chinese, Spanish, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Urdu and Vietnamese.</p>
 
                     <h3>Is Overdubber free?</h3>
                     <p>Yes, to start. The free app records up to eight layers per project, lets you mix them, and exports the finished mix as WAV or M4A. It shows ads on iPhone and iPad; the Mac version has none. A one-time purchase unlocks unlimited layers, audio import, individual-track export and more themes, and removes the ads on iPhone and iPad.</p>
