@@ -4,6 +4,8 @@
 
 Overdubber in brief:
 
+- Interface languages: English, Arabic, Danish, French, German, Hebrew, Hindi, Indonesian, Italian, Japanese, Korean, Norwegian Bokmål, Polish, Portuguese, Simplified Chinese, Spanish, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Urdu and Vietnamese.
+
 - Records vocals and instruments in layers: record a part, listen back while adding the next.
 - Free: up to eight layers per project, metronome and count-in, looping, non-destructive trim, timing and fades, volume, pan and mute per layer, optional tape warmth recorded into the take, reverb and Glue compression on the mix, WAV or M4A mix export, and Session video recording on iPhone and iPad.
 - One-time purchase: unlimited layers, audio import, individual-track export (WAV files in a ZIP), more themes, and no ads on iPhone and iPad (the Mac version has no ads). No subscription and no account.
@@ -15,6 +17,8 @@ Overdubber in brief:
 ## Overdubber
 
 - [Overdubber](https://thorbjxrn.github.io/overdubber/): What the app does, free and paid features, requirements, and common questions.
+- [Overdubber auf Deutsch](https://thorbjxrn.github.io/overdubber/de/): German product page and FAQ.
+- [Overdubber 日本語](https://thorbjxrn.github.io/overdubber/ja/): Japanese product page and FAQ.
 - [From tape machines to Overdubber](https://thorbjxrn.github.io/blog/overdubber/): Why and how the app was made.
 - [Overdubber on the App Store](https://apps.apple.com/app/apple-store/id6762368689?pt=128788989&ct=thorbjxrn.github.io&mt=8): Download, ratings and release notes.
 
