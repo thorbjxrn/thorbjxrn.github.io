@@ -10,7 +10,7 @@ The website follows that public list, rather than counting internal localization
 
 ## First translated pages
 
-German and Japanese were selected using the retained App Store acquisition report at `~/Code/evidence/overdubber/release-readiness-2026-11-07/acquisition/sales-by-country.csv`. Summing its `1F` units over 30 September–6 November 2026 gives Japan 22 and Germany 14, ahead of France 8 and Brazil 6. US 30 and GB 13 are excluded from this non-English pilot selection.
+German and Japanese were selected using the retained App Store acquisition report prepared on 7 November 2026. Summing its `1F` units over 30 September–6 November 2026 gives Japan 22 and Germany 14, ahead of France 8 and Brazil 6. US 30 and GB 13 are excluded from this non-English pilot selection.
 
 This is a small historical sample of downloads by territory, not measured browser language, website traffic or translation uplift. Search Console discovery through the connected Ad Superpowers tool was unavailable because the workspace trial had ended; no fresh query data was obtained and no account changes were made. Revisit language priority using newer acquisition and search data before expanding.
 
@@ -27,8 +27,10 @@ Google recommends [separate language URLs and explicit language alternatives](ht
 
 ## Review and verification
 
-Independent agent review found no blockers in German/Japanese fidelity, feature/purchase scope, canonical/alternate links or accessible language navigation. Three minor wording fixes were applied: optional tape warmth in Japanese, explicit sending of anonymous events in German, and Japanese punctuation. This is not native-human translation sign-off.
+An initial independent agent review found no blockers in German/Japanese fidelity, feature/purchase scope, canonical/alternate links or accessible language navigation. Three minor wording fixes were applied: optional tape warmth in Japanese, explicit sending of anonymous events in German, and Japanese punctuation. This is not native-human translation sign-off.
 
 Structural validation checks HTML nesting, unique IDs, local assets and anchors, campaign URLs, reciprocal alternates, self-canonicals, sitemap membership and equality of visible and structured FAQ answers. Browser checks cover phone and desktop widths, image loading, horizontal overflow and language switching.
 
-Working evidence and check scripts are retained at `~/Code/evidence/thorbjxrn.github.io/overdubber-languages-2026-11-20/`. Review that evidence after PR resolution and before expanding to further languages. No merge or deployment is included in this task.
+Working evidence and check scripts are retained locally under the website language-pilot task. Review that evidence after PR resolution and before expanding to further languages. No merge or deployment is included in this task.
+
+A subsequent independent Grok review of commit `895f4f8` found no blockers. Its suggestions led to clearer Japanese metronome copy, clearer German wording for adjustable controls, a consistent `SoftwareApplication.url` across languages, and removal of local filesystem paths from these public notes. Page-specific canonical URLs and language alternatives remain separate. Claude was also requested but could not start because its configured model required usage credits; no Claude review is claimed.
