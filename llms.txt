@@ -19,9 +19,9 @@ Overdubber in brief:
 - [Overdubber](https://thorbjxrn.github.io/overdubber/): What the app does, free and paid features, requirements, and common questions.
 - [Overdubber auf Deutsch](https://thorbjxrn.github.io/overdubber/de/): German product page and FAQ.
 - [Overdubber 日本語](https://thorbjxrn.github.io/overdubber/ja/): Japanese product page and FAQ.
-- [Overdubber · Français](https://thorbjxrn.github.io/overdubber/fr/)
-- [Overdubber · 简体中文](https://thorbjxrn.github.io/overdubber/zh-hans/)
-- [Overdubber · 繁體中文](https://thorbjxrn.github.io/overdubber/zh-hant/)
+- [Overdubber · Français](https://thorbjxrn.github.io/overdubber/fr/): French product page and FAQ.
+- [Overdubber · 简体中文](https://thorbjxrn.github.io/overdubber/zh-hans/): Simplified Chinese product page and FAQ.
+- [Overdubber · 繁體中文](https://thorbjxrn.github.io/overdubber/zh-hant/): Traditional Chinese product page and FAQ.
 - [Overdubber on Google Play (open beta)](https://play.google.com/store/apps/details?id=thorbjxrn.overdubber)
 - [From tape machines to Overdubber](https://thorbjxrn.github.io/blog/overdubber/): Why and how the app was made.
 - [Overdubber on the App Store](https://apps.apple.com/app/apple-store/id6762368689?pt=128788989&ct=thorbjxrn.github.io&mt=8): Download, ratings and release notes.
