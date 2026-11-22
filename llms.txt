@@ -20,6 +20,8 @@ Overdubber in brief:
 - [Overdubber auf Deutsch](https://thorbjxrn.github.io/overdubber/de/): German product page and FAQ.
 - [Overdubber 日本語](https://thorbjxrn.github.io/overdubber/ja/): Japanese product page and FAQ.
 - [Overdubber · Français](https://thorbjxrn.github.io/overdubber/fr/): French product page and FAQ.
+- [Overdubber · Español](https://thorbjxrn.github.io/overdubber/es/): Spanish product page and FAQ.
+- [Overdubber · 한국어](https://thorbjxrn.github.io/overdubber/ko/): Korean product page and FAQ.
 - [Overdubber · 简体中文](https://thorbjxrn.github.io/overdubber/zh-hans/): Simplified Chinese product page and FAQ.
 - [Overdubber · 繁體中文](https://thorbjxrn.github.io/overdubber/zh-hant/): Traditional Chinese product page and FAQ.
 - [Overdubber on Google Play (open beta)](https://play.google.com/store/apps/details?id=thorbjxrn.overdubber)
