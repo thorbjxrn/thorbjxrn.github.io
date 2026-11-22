@@ -30,7 +30,7 @@
     <meta name="twitter:image" content="https://thorbjxrn.github.io/icons/overdubber.png">
     <meta name="twitter:image:alt" content="Icône d’Overdubber">
     <link rel="stylesheet" href="/blog/blog.css?v=20261018-accessibility">
-    <link rel="stylesheet" href="/overdubber/languages.css">
+    <link rel="stylesheet" href="/overdubber/languages.css?v=2">
     <style>
         .lede { display: flex; align-items: center; gap: 20px; }
         .lede img { border-radius: 16px; flex-shrink: 0; }
@@ -176,9 +176,19 @@
     <div class="container">
         <nav class="site-nav" aria-label="Navigation principale">
             <a href="/">← Thorbjørn Bonvik</a>
-            <a href="/blog/">Blog (en anglais)</a>
+            <a href="/blog/">Blog<span class="link-language"> (en anglais)</span></a>
+            <details class="language-menu">
+                <summary aria-label="Langue de la page — Français">Français</summary>
+                <ul>
+                    <li><a href="/overdubber/" lang="en" hreflang="en">English</a></li>
+                    <li><a href="/overdubber/de/" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="/overdubber/ja/" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="/overdubber/fr/" lang="fr" hreflang="fr" aria-current="page">Français <span aria-hidden="true">✓</span></a></li>
+                    <li><a href="/overdubber/zh-hans/" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+                    <li><a href="/overdubber/zh-hant/" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </details>
         </nav>
-        <nav class="language-nav" aria-label="Langue de la page"><a href="/overdubber/" lang="en" hreflang="en">English</a><a href="/overdubber/de/" lang="de" hreflang="de">Deutsch</a><a href="/overdubber/ja/" lang="ja" hreflang="ja">日本語</a><a href="/overdubber/fr/" lang="fr" hreflang="fr" aria-current="page">Français</a><a href="/overdubber/zh-hans/" lang="zh-Hans" hreflang="zh-Hans">简体中文</a><a href="/overdubber/zh-hant/" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></nav>
         <main>
             <article>
                 <header>
