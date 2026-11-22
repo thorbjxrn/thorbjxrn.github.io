@@ -30,7 +30,7 @@
     <meta name="twitter:image" content="https://thorbjxrn.github.io/icons/overdubber.png">
     <meta name="twitter:image:alt" content="Overdubber 应用图标">
     <link rel="stylesheet" href="/blog/blog.css?v=20261018-accessibility">
-    <link rel="stylesheet" href="/overdubber/languages.css">
+    <link rel="stylesheet" href="/overdubber/languages.css?v=2">
     <style>
         .lede { display: flex; align-items: center; gap: 20px; }
         .lede img { border-radius: 16px; flex-shrink: 0; }
@@ -176,9 +176,19 @@
     <div class="container">
         <nav class="site-nav" aria-label="主导航">
             <a href="/">← Thorbjørn Bonvik</a>
-            <a href="/blog/">博客（英文）</a>
+            <a href="/blog/">博客<span class="link-language">（英文）</span></a>
+            <details class="language-menu">
+                <summary aria-label="页面语言 — 简体中文">简体中文</summary>
+                <ul>
+                    <li><a href="/overdubber/" lang="en" hreflang="en">English</a></li>
+                    <li><a href="/overdubber/de/" lang="de" hreflang="de">Deutsch</a></li>
+                    <li><a href="/overdubber/ja/" lang="ja" hreflang="ja">日本語</a></li>
+                    <li><a href="/overdubber/fr/" lang="fr" hreflang="fr">Français</a></li>
+                    <li><a href="/overdubber/zh-hans/" lang="zh-Hans" hreflang="zh-Hans" aria-current="page">简体中文 <span aria-hidden="true">✓</span></a></li>
+                    <li><a href="/overdubber/zh-hant/" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+                </ul>
+            </details>
         </nav>
-        <nav class="language-nav" aria-label="页面语言"><a href="/overdubber/" lang="en" hreflang="en">English</a><a href="/overdubber/de/" lang="de" hreflang="de">Deutsch</a><a href="/overdubber/ja/" lang="ja" hreflang="ja">日本語</a><a href="/overdubber/fr/" lang="fr" hreflang="fr">Français</a><a href="/overdubber/zh-hans/" lang="zh-Hans" hreflang="zh-Hans" aria-current="page">简体中文</a><a href="/overdubber/zh-hant/" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></nav>
         <main>
             <article>
                 <header>
