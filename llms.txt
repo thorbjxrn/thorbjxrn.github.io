@@ -32,6 +32,14 @@ Overdubber in brief:
 
 ## Gorilla Habits
 
+A weekly habit tracker for iPhone and iPad. Chosen rest days preserve streaks and completion rates. Track up to five habits free and check in with a Home Screen widget. One-time Premium adds unlimited habits, full saved history, more widgets and optional private iCloud sync.
+
+- [Gorilla Habits · English](https://thorbjxrn.github.io/gorilla-habits/)
+- [Gorilla Habits · Français](https://thorbjxrn.github.io/gorilla-habits/fr/)
+- [Gorilla Habits · 日本語](https://thorbjxrn.github.io/gorilla-habits/ja/)
+- [Gorilla Habits · Español (México)](https://thorbjxrn.github.io/gorilla-habits/es-mx/)
+- [Gorilla Habits · Português (Brasil)](https://thorbjxrn.github.io/gorilla-habits/pt-br/)
+
 - [Building and Rebranding Gorilla Habits](https://thorbjxrn.github.io/blog/gorilla-habits/): Firsthand story of a SwiftUI habit tracker, the unpublished Habit Duck rebrand, six branding concepts, the NOK 700 advertising screen and its limitations, and the Gorilla Habits release.
 - [Gorilla Habits on the App Store](https://apps.apple.com/app/apple-store/id6762311878?pt=128788989&ct=thorbjxrn.github.io&mt=8): Habit tracker with up to five habits free, ads, and optional one-time Premium. No subscription.
 
