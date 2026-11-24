@@ -32,7 +32,7 @@ Overdubber in brief:
 
 ## Gorilla Habits
 
-A weekly habit tracker for iPhone and iPad. Chosen rest days preserve streaks and completion rates. Track up to five habits free and check in with a Home Screen widget. One-time Premium adds unlimited habits, full saved history, more widgets and optional private iCloud sync.
+A weekly habit tracker for iPhone and iPad. Chosen rest days preserve streaks and completion rates. Track up to five habits free and check in with a Home Screen widget. One-time Premium adds unlimited habits, full saved history, more widgets and optional private iCloud sync. VoiceOver reads the habit, day and recorded state in the weekly grid. The app and widgets support larger text.
 
 - [Gorilla Habits · English](https://thorbjxrn.github.io/gorilla-habits/)
 - [Gorilla Habits · Français](https://thorbjxrn.github.io/gorilla-habits/fr/)
